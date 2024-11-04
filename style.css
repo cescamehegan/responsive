@@ -1,0 +1,137 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+body {
+    margin: 20px; /* Sets a margin around the entire body */
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h2 { 
+	size: 20px;
+ }
+
+.center-text {
+	text-align: center;
+}
+
+.menu-buttons {
+  display: flex; /* Use flexbox to align buttons */
+  justify-content: center; /* Center the buttons horizontally */
+  margin-bottom: 20px; /* Space below buttons */
+}
+
+.menu-buttons a {
+  background-color: #f5f5f5; /* Button background color */
+  color: #333; /* Text color */
+  padding: 10px 20px; /* Button padding */
+  text-decoration: none; /* Remove underline */
+  margin: 0 10px; /* Space between buttons */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.menu-buttons a:hover {
+  background-color: #ddd; /* Change background on hover */
+}
+
+.banner {
+    position: relative; /* Position for the text overlay */
+    width: 100%; /* Full width of the container */
+    max-height: auto; /* Limit height of the banner */
+    overflow: hidden; /* Hide excess parts */
+}
+
+.banner-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+}
+
+.banner h1, .banner p {
+    position: absolute; /* Position text on the image */
+    bottom: 20px; /* Adjust vertical position */
+    left: 50%; /* Center text horizontally */
+    transform: translateX(-50%); /* Center text */
+    color: white; /* Text color for contrast */
+    text-align: center; /* Center text */
+}
+
+#welcome {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px; /* Add some padding */
+}
+
+.text-content {
+    flex: 0 0 60%;; /* Allow text content to take available space */
+    margin-right: 20px; /* Space between text and carousel */
+}
+
+.carousel-container {
+    flex: 1; /* This will take the remaining space */
+    max-width: 30%; /* Adjust this value for more/less space */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-inner img {
+    width: 100%; /* Ensures the image fills the carousel */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+
+
+
+.about-section {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space between items */
+}
+
+.text-content {
+    flex: 1; /* Take up space on the left */
+    max-width: 70%; /* Limit width if needed */
+}
+
+.image-content {
+    flex: 1; /* Take up space on the right */
+    max-width: 40%; /* Limit width if needed */
+}
+
+.image-content img {
+    width: 40%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.custom-accordion-width {
+  max-width: 600px; /* Adjust to your desired width */
+  margin: auto; /* Center the accordion */
+}
+
+body {
+  background-color: #f0f0f0; /* Light gray */
+  color: #000; /* Black text */
+}
+
+.accordion {
+  background-color: #e0e0e0; /* Slightly darker gray for the accordion */
+}
+
+.accordion-button {
+  background-color: #d1d1d1; /* Medium gray for button */
+  color: #000; /* Black text */
+}
+
+.accordion-button:hover {
+  background-color: #c0c0c0; /* Darker gray on hover */
+}
+
+.navbar {
+  background-color: #f0f0f0
+}
